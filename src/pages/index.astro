@@ -1,62 +1,13 @@
 ---
-import Layout from '../layouts/Layout.astro'
+import Layout from '../layouts/Layout.astro';
 ---
 
-<head>
-  <!-- AOS CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-</head>
-
 <Layout>
-  <section class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20 text-center">
-    <h1 class="text-5xl font-bold mb-4" data-aos="fade-down">Welcome to Your Business</h1>
-    <p class="text-xl mb-6" data-aos="fade-up" data-aos-delay="200">
-      Promote music, logos, and grow your income with our Discord server.
-    </p>
-    <a href="#pricing">
-      <button class="px-8 py-3 bg-yellow-400 text-black rounded-lg font-semibold hover:bg-yellow-300 transition" data-aos="zoom-in" data-aos-delay="400">
-        Get Started Now
-      </button>
+  <section class="text-center py-20 bg-gradient-to-r from-indigo-500 to-pink-500 text-white">
+    <h1 class="text-5xl font-bold mb-4 animate-bounce">Welcome to Ascend Media</h1>
+    <p class="text-xl mb-6">Start earning from Logo & Music Promotions. $500+ possible per million views!</p>
+    <a href="https://discord.gg/YOUR_LINK" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-200 transition">
+      Join Our Discord
     </a>
   </section>
-
-  <section class="py-20 bg-white text-black text-center" id="features">
-    <h2 class="text-4xl font-bold mb-10" data-aos="fade-up">What You’ll Get</h2>
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-6">
-      <div class="p-6 bg-gray-100 rounded-xl shadow-lg" data-aos="flip-left">
-        <h3 class="text-2xl font-semibold mb-2">🎵 Music Promotion</h3>
-        <p>Earn $500+ per million views from clients. High demand industry.</p>
-      </div>
-      <div class="p-6 bg-gray-100 rounded-xl shadow-lg" data-aos="flip-left" data-aos-delay="100">
-        <h3 class="text-2xl font-semibold mb-2">🎨 Logo Promotion</h3>
-        <p>Get paid $250/month for consistent logo promos using your page.</p>
-      </div>
-      <div class="p-6 bg-gray-100 rounded-xl shadow-lg" data-aos="flip-left" data-aos-delay="200">
-        <h3 class="text-2xl font-semibold mb-2">🤝 Support & Access</h3>
-        <p>Access to premium Discord + 1-on-1 help from the original creator.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-20 bg-gray-900 text-white text-center" id="pricing">
-    <h2 class="text-4xl font-bold mb-10" data-aos="fade-up">Pricing</h2>
-    <div class="max-w-md mx-auto bg-gray-800 p-8 rounded-xl shadow-xl" data-aos="zoom-in">
-      <h3 class="text-2xl font-semibold mb-4">One-Time Payment</h3>
-      <p class="text-3xl font-bold mb-4">$1499</p>
-      <p class="mb-6">Lifetime access. No hidden fees.</p>
-      <button class="bg-green-500 text-black px-6 py-3 rounded-lg hover:bg-green-400 transition">
-        Pay with PayPal or Crypto
-      </button>
-    </div>
-  </section>
-
-  <footer class="bg-black text-white text-center py-6" data-aos="fade-up">
-    <p>© 2025 Kunal Patel. All rights reserved.</p>
-  </footer>
-
-  <!-- AOS Script -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
 </Layout>
